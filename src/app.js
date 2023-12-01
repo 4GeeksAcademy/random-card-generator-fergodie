@@ -47,6 +47,8 @@ window.onload = function() {
     cardType[0].classList.toggle("text-black", isBlack);
     cardType[1].classList.toggle("text-danger", !isBlack);
     cardType[1].classList.toggle("text-black", isBlack);
+    cardValue.classList.toggle("text-danger", !isBlack);
+    cardValue.classList.toggle("text-black", isBlack);
   };
 
   button.addEventListener("click", cardGenerator);
